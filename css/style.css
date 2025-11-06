@@ -29,3 +29,87 @@ html {
 *, *::before, *::after {
    box-sizing: inherit;
 }
+
+body {
+  font-family: 'Lato';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #102746;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+/* --- Header styles start --- */
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.header__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 56px;
+}
+
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__item {
+  margin-right: 82px;
+}
+
+.header__item:last-child {
+  margin-right: 0;
+}
+
+.header__link {
+  font-size: 18px;
+  line-height: 133%;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.8s ease;
+}
+
+.header__link:hover, .header__link:focus, .header__link:active {
+  opacity: 0.7;
+}
+/* --- Header styles end --- */
+
+
+/* --- Intro styles start --- */
+.intro {
+  height: 100vh;
+  background: url('../img/intro-bg.jpg') no-repeat center top / cover;
+}
+
+/* --- Intro styles end --- */
+
+/* --- Header styles start --- */
+/* --- Header styles end --- */
+
+/* --- Header styles start --- */
+/* --- Header styles end --- */
+
+/* --- Header styles start --- */
+/* --- Header styles end --- */
+
+/* --- Header styles start --- */
+/* --- Header styles end --- */
+
