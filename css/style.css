@@ -109,7 +109,7 @@ a {
 .intro {
   min-height: 100vh;
   background: url('../img/intro-bg.jpg') no-repeat center top / cover;
-  padding-top: 263px;
+  padding: 263px 0 220px;
 }
 
 .intro__title {
@@ -125,6 +125,10 @@ a {
   color: #fff;
   line-height: 150%;
   margin-bottom: 59px;
+}
+
+.search-form {
+  margin-bottom: 150px;
 }
 
 .search-form__info {
@@ -207,8 +211,36 @@ a {
 
 /* --- Intro styles end --- */
 
-/* --- Header styles start --- */
-/* --- Header styles end --- */
+/* --- Benefits styles start --- */
+
+.benefits__wrap {
+  max-width: 1262px;
+  margin: 0 auto;
+  box-shadow: 0 2px 20px 0 rgba(21, 24, 36, 0.16);
+  background: #fff;
+  position: relative;
+}
+
+.benefits__title {
+  width: 100%;
+  font-weight: 500;
+  font-size: 35px;
+  color: #102746;
+  padding: 93px 100px 88px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-100%);
+  background: #fff;
+}
+
+.benefits__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 55px;
+}
+
+/* --- Benefits styles end --- */
 
 /* --- Header styles start --- */
 /* --- Header styles end --- */
