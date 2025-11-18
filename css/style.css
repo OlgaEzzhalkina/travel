@@ -421,8 +421,51 @@ img {
 /* --- Places styles end --- */
 
 
-/* --- Header styles start --- */
-/* --- Header styles end --- */
+/* --- Tours styles start --- */
+
+.tours {
+  margin-bottom: 139px;
+}
+
+.tours__tour {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 108px;
+  align-items: center;
+  margin-bottom: 77px;
+}
+
+.tour__info {
+  padding-left: 47px;
+}
+
+.tour__title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 133%;
+  margin-bottom: 75px;
+  max-width: 357px;
+}
+
+.tour__desc {
+  line-height: 150%;
+  margin-bottom: 48px;
+  max-width: 519px;
+}
+
+.tour__more {
+  color: #006dfe;
+  text-transform: uppercase;
+  padding-right: 59px;
+  background: url('../img/svg/arrow-right-icon.svg') no-repeat 90% 7px;
+}
+
+.tour__more:hover, .tour__more:focus {
+  background: url('../img/svg/arrow-right-icon.svg') no-repeat right 7px;
+
+}
+
+/* --- Tours styles end --- */
 
 /* --- Header styles start --- */
 /* --- Header styles end --- */
