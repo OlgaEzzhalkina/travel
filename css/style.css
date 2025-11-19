@@ -285,8 +285,9 @@ img {
   max-width: 66px;
 }
 
-.benefits__card__thumb {
+.benefits__card-thumb {
   display: block;
+  height: 66px;
 }
 
 .benefits__card-title {
@@ -467,6 +468,97 @@ img {
 
 /* --- Tours styles end --- */
 
+
+/* --- Top places styles start --- */
+
+.top {
+  margin-bottom: 86px;
+}
+
+.top__title {
+  margin-bottom: 54px;
+}
+
+.top__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 57px;
+}
+
+.top__card {
+  display: flex;
+  flex-direction: column;
+}
+
+.top__card-pic {
+  position: relative;
+  margin-bottom: 45px;
+}
+
+.top__card-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  width: 100%;
+  background: rgba(21, 24, 36, 0.6);
+  color: #fff;
+  padding: 16px 25px;
+}
+
+.top__card-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+  text-transform: uppercase;
+  margin: 0 auto 0 0;
+}
+
+.top__card-likes, .top__card-comments {
+  line-height: 150%;
+  font-weight: 500;
+}
+
+.top__card-likes {
+  padding-right: 20px;
+  background: url('../img/svg/likes-icon.svg') no-repeat right 5px;
+  margin-right: 14px;
+}
+
+.top__card-comments {
+  padding-right: 23px;
+  background: url('../img/svg/comments-icon.svg') no-repeat right 7px;
+}
+
+.top__card-desc {
+  line-height: 150%;
+  margin-bottom: 31px;
+}
+
+.top__card-more {
+  width: 118px;
+  color: #fff;
+  text-transform: uppercase;
+  background: #006dfe;
+  margin: auto 0 0 0;
+  padding: 12px 20px;
+  transition: all 0.8s ease;
+}
+
+.top__card-more:hover, .top__card-more:focus, .top__card-more:active {
+  background: #0b59be;
+}
+
+/* --- Top places styles end --- */
+
+
+/* --- Header styles start --- */
+/* --- Header styles end --- */
+/* --- Header styles start --- */
+/* --- Header styles end --- */
 /* --- Header styles start --- */
 /* --- Header styles end --- */
 
