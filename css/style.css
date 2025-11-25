@@ -98,6 +98,13 @@ img {
   left: 0;
   top: 0;
   width: 100%;
+  transition: 0.3s linear;
+  z-index: 999;
+}
+
+.header_active {
+  background: #0e1d28;
+  opacity: 0.95;
 }
 
 .header__wrapper {
@@ -105,7 +112,7 @@ img {
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: space-between;
-  padding-top: 56px;
+  padding: 56px 0 20px;
 }
 
 .header__list {
