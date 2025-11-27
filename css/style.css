@@ -804,7 +804,9 @@ img {
     transform: translateY(-50%) rotate(-45deg);
   }
 
-  
+  .benefits__card {
+    grid-column: span 3;
+  }
 
 };
 
