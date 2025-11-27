@@ -261,6 +261,7 @@ img {
 }
 
 .search-form__submit {
+  height: 58px;
   padding: 15px 40px;
   background: #1b7dff;
   color: #fff;
@@ -311,12 +312,15 @@ img {
 .benefits__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 55px;
+  -moz-column-gap: 55px;
+       column-gap: 55px;
   padding: 32px 100px 0;
 }
 
 .benefits__card {
   grid-column: span 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .benefits__card-pic {
@@ -345,11 +349,13 @@ img {
 
 .benefits__card-more {
   display: inline-block;
+  width: 160px;
   padding-right: 59px;
   background: url('../img/svg/arrow-right-icon.svg') no-repeat 90% center;
   line-height: 150%;
   color: #006dfe;
   text-transform: uppercase;
+  margin-top: auto;
 }
 
 .benefits__card-more:hover, .benefits__card-more:focus {
@@ -427,7 +433,8 @@ img {
 
 .places__card-pic {
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   transition: 0.5s all ease;
 }
 
@@ -520,13 +527,14 @@ img {
 
 .top__cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 57px;
 }
 
 .top__card {
   display: flex;
   flex-direction: column;
+  grid-column: span 2;
 }
 
 .top__card-pic {
@@ -663,6 +671,76 @@ img {
 
 
 /* --- Media styles start --- */
+@media screen and (max-width: 960px) {
+  .search-form__field {
+    margin-bottom: 25px;
+  }
+
+  .intro {
+    padding-bottom: 152px;
+  }
+
+  .benefits {
+    margin-bottom: 60px;
+  }
+
+  .benefits__wrap {
+    box-shadow: none;
+    padding-bottom: 30px;
+  }
+
+  .benefits__cards {
+    padding: 0 15px;
+    -moz-column-gap: 35px;
+         column-gap: 35px;
+  }
+
+  .benefits__title {
+    padding: 55px 20px;
+  }
+
+  .places__card {
+    grid-column: span 6;
+    height: 300px;
+  }
+
+  .tours__tour {
+    gap: 0 35px;
+  }
+
+  .tour__info {
+    padding-left: 0;
+  }
+
+  .tour__title {
+    margin-bottom: 15px;
+  }
+
+  .tour__desc {
+    margin-bottom: 15px;
+  }
+
+  .top__cards {
+    gap: 45px 25px;
+  }
+
+  .top__card {
+    grid-column: span 3;
+  }
+
+  .top__card-pic {
+    margin-bottom: 25px;
+  }
+
+  .top__card-desc {
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    padding: 55px 0;
+  }
+}
+
 @media  screen and (max-width: 767px) {
   .header__burger {
     display: block;
@@ -725,6 +803,8 @@ img {
   .header__nav-close-line:last-child {
     transform: translateY(-50%) rotate(-45deg);
   }
+
+  
 
 };
 
