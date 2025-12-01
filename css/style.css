@@ -831,6 +831,22 @@ img {
     margin-bottom: 30px;
   }
 
+  .search-form__field::-webkit-input-placeholder {
+    font-size: 16px;
+  }
+
+  .search-form__field::-moz-placeholder {
+    font-size: 16px;
+  }
+
+  .search-form__field:-ms-input-placeholder {
+    font-size: 16px;
+  }
+
+  .search-form__field::-ms-input-placeholder {
+    font-size: 16px;
+  }
+
   .search-form__field::placeholder {
     font-size: 16px;
   }
@@ -864,6 +880,14 @@ img {
     margin-bottom: 60px;
   }
 
+  .places__caption {
+    margin-bottom: 0;
+  }
+  
+  .places__view-all {
+    margin-bottom: 25px;
+  }
+
   .tours {
     margin-bottom: 60px;
   }
@@ -886,6 +910,10 @@ img {
 
   .top__card {
     grid-column: span 6;
+  }
+
+  .top__card-stats {
+    max-width: 386px;
   }
 
   .footer__logo {
@@ -933,14 +961,16 @@ img {
     margin-bottom: 15px;
   }
 
+  .footer__logo-pic {
+    width: 30%;
+  }
+
   .footer__menu {
     width: 50%;
     margin-right: 0;
   }
 }
 
-
-  
 
 /* --- Media styles end --- */
 
